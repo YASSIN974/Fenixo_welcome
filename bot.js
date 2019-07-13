@@ -1151,7 +1151,7 @@ client.on('message', async message => {
       message.channel.send(`**:white_check_mark: ${mention.user.username} unmuted in the server ! :neutral_face:  **  `);
   }
 });
-
+/*
 var guilds = {};
 client.on('guildBanAdd', function(guild) {
             const rebellog = client.channels.find("name", "log"),
@@ -1299,7 +1299,7 @@ u.guild.members.get(ss.executor.id).roles.forEach(r => {
     });
    
 });
-/*
+
 client.on('guildMemberAdd',member => {
 try {
     if(member.user.bot) {
