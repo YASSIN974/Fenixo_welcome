@@ -87,7 +87,7 @@ const w = ['./welcome.png'];
 })
 })
 
-                              //AVATARً
+                              AVATARً
                               let Avatar = Canvas.Image;
                               let ava = new Avatar;
                               ava.src = buf;
